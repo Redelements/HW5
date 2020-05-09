@@ -2,7 +2,7 @@
 public class SpaceCraft {
     //Initialize values
     final int GRAVITY = 12;
-    int altitude;
+    float altitude;
     int fuel;
     int velocity;
     int time;
@@ -10,7 +10,7 @@ public class SpaceCraft {
     int burnRate;
     
     public void init(){
-    	altitude = 2000;
+    	altitude = 2200;
         fuel = 500;
         velocity = 70;
         time = 0;
